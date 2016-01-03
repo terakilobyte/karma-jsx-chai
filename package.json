@@ -1,0 +1,29 @@
+{
+  "name": "karma-jsx-chai",
+  "version": "0.0.1",
+  "description": "JSX-Chai for Karma",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/terakilobyte/karma-jsx-chai.git"
+  },
+  "keywords": [
+    "karma",
+    "karma-plugin",
+    "chai",
+    "jsx",
+    "jsx-chai"
+  ],
+  "author": "Nathan Leniz <terakilobyte@gmail.com> (http://www.terakilobyte.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/terakilobyte/karma-jsx-chai/issues"
+  },
+    "homepage": "https://github.com/terakilobyte/karma-jsx-chai",
+    "peerDependencies": {
+        "karma": ">=0.6",
+        "chai": "*"
+    },
+    "engines": {
+        "node": ">=0.8"
+    }
+}
