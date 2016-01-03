@@ -6,6 +6,9 @@
     "type": "git",
     "url": "https://github.com/terakilobyte/karma-jsx-chai.git"
   },
+  "scripts": {
+    "build": "webpack"
+  },
   "keywords": [
     "karma",
     "karma-plugin",
@@ -18,12 +21,10 @@
   "bugs": {
     "url": "https://github.com/terakilobyte/karma-jsx-chai/issues"
   },
-    "homepage": "https://github.com/terakilobyte/karma-jsx-chai",
-    "peerDependencies": {
-        "karma": ">=0.6",
-        "chai": "*"
-    },
-    "engines": {
-        "node": ">=0.8"
-    }
+  "homepage": "https://github.com/terakilobyte/karma-jsx-chai",
+  "peerDependencies": {
+    "karma": ">=0.6",
+    "chai": "*",
+    "jsx-chai": "^2.0.0"
+  }
 }

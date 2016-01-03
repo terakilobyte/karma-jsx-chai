@@ -11,7 +11,7 @@ var createPattern = function (path) {
 
 var framework = function (files) {
   files.unshift(createPattern(__dirname + '/adapter.js'));
-  files.unshift(createPattern(path.dirname(require.resolve('jsx-chai')) + '/jsx-chai.jsx'));
+  files.unshift(createPattern(path.dirname(require.resolve('jsx-chai')) + '/../dist/jsx-chai.min.js'));
   files.unshift(createPattern(path.dirname(require.resolve('chai')) + '/chai.js'));
 }
 
